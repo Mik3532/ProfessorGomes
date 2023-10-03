@@ -137,36 +137,28 @@ update turmas set codigodiciplina = '524' where codigodiciplina = 1;
     
     select*from inscrito;
     
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (1,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (2,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (3,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (4,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (5,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (6,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (7,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (8,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (9,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (10,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (11,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (12,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (13,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (14,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (15,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (16,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (17,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (18,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (19,2);
-    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (20,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (21,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (22,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (23,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (24,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (25,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (26,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (27,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (28,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (29,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (30,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (31,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (32,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (33,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (34,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (35,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (36,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (37,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (38,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (39,2);
+    insert into inscrito (fk_aluno_matricula ,fk_turma_codigodiciplina_) values (40,2);
     
         select*from inscrito;
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
+select nome from aluno
+order by nome;
