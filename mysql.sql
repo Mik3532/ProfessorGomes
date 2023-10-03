@@ -43,7 +43,7 @@ alter table turmas add column  nome_diciplina varchar (120);
 update turmas set codigodiciplina = 'cod_diciplina' where codigodiciplina = 1;
 
 	insert into turmas values(
-		"814",202,23654189,17,"CyberSecurit"
+		"814",202,23654189,17,"CyberSecurity"
     );
     insert into turmas values(
 		"815",203,96521047,22,"JavaScript"
