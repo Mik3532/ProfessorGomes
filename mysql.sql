@@ -40,13 +40,13 @@ alter table turmas add column numero_turma int ;
 
 alter table turmas add column  nome_diciplina varchar (120);
 
-update turmas set codigodiciplina = '524' where codigodiciplina = 1;
+update turmas set codigodiciplina = 'cod_diciplina' where codigodiciplina = 1;
 
 	insert into turmas values(
-		"",202,23654189,17,"CyberSecurit"
+		"814",202,23654189,17,"CyberSecurit"
     );
     insert into turmas values(
-		"",203,96521047,22,"JavaScript"
+		"815",203,96521047,22,"JavaScript"
     );
     
     select *from turmas;
