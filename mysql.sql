@@ -161,4 +161,6 @@ update turmas set codigodiciplina = '524' where codigodiciplina = 1;
         select*from inscrito;
         
 select nome from aluno
-order by nome;
+order by nome desc;
+
+#asc  #desc
