@@ -40,13 +40,12 @@ alter table turmas add column numero_turma int ;
 
 alter table turmas add column  nome_diciplina varchar (120);
 
-update turmas set codigodiciplina = 'cod_diciplina' where codigodiciplina = 1;
 
 	insert into turmas values(
-		"814",202,23654189,17,"CyberSecurity"
+		"",202,23654189,17,"CyberSecurit"
     );
     insert into turmas values(
-		"815",203,96521047,22,"JavaScript"
+		"",203,96521047,22,"JavaScript"
     );
     
     select *from turmas;
@@ -161,6 +160,16 @@ update turmas set codigodiciplina = 'cod_diciplina' where codigodiciplina = 1;
         select*from inscrito;
         
 select nome from aluno
-order by nome desc;
+order by nome desc; 
+#acrecente asc
+#decrecente 
 
-#asc  #desc
+
+update turmas set sala = '204' where codigodiciplina=1;
+
+select *from turmas;
+    
+update professor set unidade = 'SENAI ACRE' where matricula =1;
+
+select *from professor 
+    
